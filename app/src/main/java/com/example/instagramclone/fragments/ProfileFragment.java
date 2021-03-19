@@ -1,7 +1,9 @@
 package com.example.instagramclone.fragments;
 
+import android.content.Intent;
 import android.util.Log;
 
+import com.example.instagramclone.LoginActivity;
 import com.example.instagramclone.Post;
 import com.parse.FindCallback;
 import com.parse.ParseException;
@@ -35,4 +37,5 @@ public class ProfileFragment extends PostsFragment{
             }
         });
     }
+
 }
